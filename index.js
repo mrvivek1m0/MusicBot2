@@ -138,7 +138,7 @@ client.once('ready', async () => {
   console.log(`Logged in as ${client.user.tag}`);
   manager.init(client.user.id);
 
-  client.user.setActivity('/help | `Support Servers :`.gg/r9kfkUddfg', { type: ActivityType.Listening });
+  client.user.setActivity('/help | 24/7 Music Bot', { type: ActivityType.Listening });
 
   try {
     console.log('Refreshing slash commands...');
